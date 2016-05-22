@@ -25,11 +25,13 @@
          xsi:noNamespaceSchemaLocation="../../../../../../web/src/main/webapp/WEB-INF/wro-sources.xsd" >
   <require pathOnDisk="web-ui/src/main/resources" >
       <jsSource webappPath="/catalog/js/" />
-      <jsSource webappPath="/catalog/views/" />
+      <jsSource webappPath="/catalog/views/default/" />
       <jsSource webappPath="/catalog/components/" />
-      <cssSource webappPath="/catalog/views/" />
+      <jsSource webappPath="/catalog/views/custom/" />
+      <cssSource webappPath="/catalog/views/default/" />
       <cssSource webappPath="/catalog/style/" />
       <cssSource webappPath="/catalog/lib/bootstrap-table/dist" />
+      <cssSource webappPath="/catalog/views/custom/" />
   </require>
   <declarative name="libcesium" pathOnDisk="web-ui/src/main/resources">
     <jsSource webappPath="/catalog/lib/ol3cesium/Cesium/Cesium.js"/>
